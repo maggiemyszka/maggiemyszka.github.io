@@ -1,3 +1,69 @@
 h1{
   color: orange;
+  font-family: sans-serif;
+}
+
+.gradient-box {
+  width: 300px;
+  height: 150px;
+
+  background-color:
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: #d6f9ff; /* Old browsers */
+background: -moz-linear-gradient(top, #d6f9ff 0%, #9ee8fa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d6f9ff 0%,#9ee8fa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d6f9ff 0%,#9ee8fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+  border-radius: 20px;
+  margin: 20px
+
+}
+
+body, *{
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  background-color: lightblue;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: yellow;
+  height: 100px;
+}
+
+nav {
+  background color: green;
+  height: 50px;
+}
+
+main {
+  background-color: white;
+  width: 960px;
+}
+
+footer {
+  background-color: pink;
+  height: 100px;
+}
+
+aside {
+  background-color: cadetblue;
+  width: 300px;
+  min-height: 400px;
+  float: left;
+}
+
+section {
+  background-color: brown;
+  width: 660px;
+  min-height: 400px;
+  float: left;
 }
